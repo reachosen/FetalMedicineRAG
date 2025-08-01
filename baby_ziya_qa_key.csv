@@ -1,0 +1,11 @@
+question_id,question,needle_note_id,needle_phase,needle_text,reasoning_type
+Q1,When was hypotonia first documented?,9c09354b-f50f-4516-aa23-4e3dbd8a93cb,nicu,Physical exam shows significant hypotonia in all extremities.,First mention recall
+Q2,Was Dandy-Walker malformation ever reassessed after birth?,169db6d0-2e6b-415f-9efe-a5b05ae82575,nicu,MRI confirms Dandy-Walker malformation as previously noted in fetal imaging.,Temporal validation
+Q3,What is the earliest note of developmental delay?,aa970905-3655-41df-bcd8-d1714a8c4e00,age_1_2,Developmental assessment identifies global developmental delay in motor and speech skills.,First mention recall
+Q4,Was there disagreement between fetal and NICU imaging?,61242120-51d2-47db-bdaf-b80708959989,nicu,"NICU MRI re-read shows no evidence of cerebellar abnormality, contradicting fetal findings.",Contradiction detection
+Q5,Could the headaches at age 5 relate to prior findings?,2c7a240a-06dc-4487-acb1-e93e21ecfddb,age_3_5,MRI at age 5 shows mild ventricular enlargement potentially linked to chronic headaches.,Multi-hop reasoning
+Q6,Was seizure-like activity ever noted?,d394e8b4-c71d-4079-aa93-d124a5e82d9a,age_3_5,"Family reports brief staring episode during sleep, raising concern for seizure-like activity.",Rare event detection
+Q7,Was there a family history of migraines noted?,cb3235fe-3451-4d7f-a4e1-2ffdbda88068,age_3_5,Family history reveals mother suffers from chronic migraines.,One-time mention
+Q8,Has visual tracking difficulty been persistent over time?,8c6c56eb-6dba-4aac-9433-4ff84cfde0f5,age_1_2,Persistent visual tracking difficulty noted in pediatric neuro exam.,Temporal aggregation
+Q9,Was there any concern of neglect or environment noted?,c38f1fdd-0574-4039-8dcb-6251371d3e7c,age_3_5,OT visit raises concern for possible environmental neglect during home assessment.,Sensitive signal retrieval
+Q10,Was a neurology referral placed before age 1?,a5c78fb1-7eeb-46cc-863f-20a8bdc2c664,nicu,Referred to pediatric neurology during NICU stay due to abnormal tone.,Precise timeline check
